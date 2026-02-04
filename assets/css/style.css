@@ -433,6 +433,44 @@ section {
   margin-bottom: 0;
 }
 
+.about .about-image-card {
+  background: #fff;
+  padding: 12px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 24px rgba(110, 123, 131, 0.1);
+}
+
+.about .about-image-card img {
+  border-radius: 12px;
+}
+
+.about .about-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.about .about-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px 22px;
+  box-shadow: 0px 4px 24px rgba(110, 123, 131, 0.1);
+}
+
+.about .about-card h3 {
+  margin-bottom: 10px;
+}
+
+.about .about-details-card ul {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+  .about .about-image-card {
+    margin-bottom: 18px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -509,6 +547,50 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #0563bb;
+}
+
+.skills .skills-grid {
+  row-gap: 24px;
+}
+
+.skills .skills-group {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 18px rgba(110, 123, 131, 0.08);
+  margin-bottom: 24px;
+}
+
+.skills .skills-group h4 {
+  margin: 0 0 14px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #45505b;
+}
+
+.skills .skill-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills .skill-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #f2f3f5;
+  color: #45505b;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.skills .skill-card i {
+  font-size: 16px;
+  color: #0563bb;
 }
 
 /*--------------------------------------------------------------
